@@ -137,10 +137,13 @@ img {
 /* #region hero */
 .hero {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 
     
@@ -244,11 +247,11 @@ img {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
     width: calc((100% - 72px) / 4);
 }
 .feature-item-block-icons {
     display: flex;
+    margin-bottom: 8px;
     width: 100%;
     height: 112px;
     align-items: center;
@@ -299,6 +302,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 32px 0;
     gap: 8px;
 }
 .team-social-list {
@@ -330,6 +334,7 @@ img {
 .team-social-link:hover,
 .team-social-link:focus {
     background-color: #404bbf;
+    fill: #f4f4fd;
 }
 /* #endregion team */
 
@@ -410,10 +415,11 @@ img {
 footer .container {
     display: flex;
     align-items:first baseline;
-    gap: 120px;    
+       
 }
 .footer-logo-text {
     display: block;
+    margin-right: 120px;
 }
 .footer-logo {
     display:inline-block;
@@ -438,7 +444,7 @@ footer .block-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
@@ -468,6 +474,7 @@ footer .block-text {
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
+    font: #f4f4fd;
 }
 /* #endregion footer */
 
